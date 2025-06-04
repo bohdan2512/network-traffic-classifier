@@ -1,0 +1,1 @@
+CICIDS2017 Prediction API Overview This is a FastAPI-based API for predicting network attack types using a pre-trained XGBoost + Neural Network models on the CICIDS2017 dataset. The API is deployed on Render and can be accessed via Postman or curl.

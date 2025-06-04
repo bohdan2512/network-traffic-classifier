@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: network-traffic-classifier
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /required-features
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: 1
